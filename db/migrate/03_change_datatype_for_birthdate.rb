@@ -4,5 +4,5 @@ class ChangeColumnName < ActiveRecord::Migration
   change_column :students, :birthday, :datetime
   end
 
-  
+
 end
